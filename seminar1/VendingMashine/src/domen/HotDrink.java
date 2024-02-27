@@ -3,18 +3,18 @@ package domen;
 /**
  */
 public class HotDrink extends Product{
-    private int temperatura;
+    private String temperatura;
 
-    public HotDrink(long id, String name, double price, int pocishn, int temperatura) {
-        super(id, name, price, pocishn);
-        this.temperatura = temperatura;
-    }
 
-    public int getTemperatura() {
+      
+
+
+
+    public String getTemperatura() {
         return temperatura;
     }
 
-    public void setTemperatura(int temperatura) {
+    public void setTemperatura(String temperatura) {
         this.temperatura = temperatura;
     }
 
